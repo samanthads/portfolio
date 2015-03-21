@@ -1,8 +1,28 @@
-/*custom styles*/
+/*.name{
+	float: right;
+}*/
 
-@media (min-width: 768px){
-	.jumbotron h1{
-		color: blue;
-		font-size: 25;
+.spots{
+	padding-top: 72px;
+	text-align: center;
+}
+
+@media (max-width: 1200px){
+	.spots{
+		padding-top: 0;
 	}
 }
+
+.navi2{
+	text-align: center;
+}
+
+
+h2{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
