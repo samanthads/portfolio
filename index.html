@@ -58,7 +58,7 @@
       </div>
     </div>
   </div>
-  <div class = "container work">
+  <div class = "container work" id="work">
     <div class = "row">
       <h2>Work</h2>
       <div class = "col-md-3 col-xs-6">
@@ -80,7 +80,7 @@
         </a>
       </div>
       <div class = "col-md-3 col-xs-6">
-        <a href="#" class="thumbnail">
+        <a href="http://samanthads.github.io/WongsWok2" class="thumbnail">
           <img class ="img-circle" src="https://placehold.it/194x194" alt="...">
           <div class ="caption">
             <h3>Wong's Wok Site</h3>
@@ -89,13 +89,58 @@
         </a>
       </div>
       <div class = "col-md-3 col-xs-6">
-        <a href="#" class="thumbnail">
+        <a href="http://www.pwc.com/gx/en/technology-consulting-services/index.jhtml" class="thumbnail">
           <img class ="img-circle" src="https://placehold.it/194x194" alt="...">
           <div class ="caption">
-            <h3>Something Else</h3>
+            <h3>PwC Advisory Associate</h3>
             <p>Mel animal contentiones te, ne esse noluisse duo.</p>
           </div>
         </a>
+      </div>
+    </div>
+  </div>
+
+  <div class = "container contact" id="contact">
+    <div class = "row">
+      <h2>Contact</h2>
+
+      <div class = "col-md-12">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+              Feedback
+            </button>
+                       <!-- Modal -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Feedback Form</h4>
+                    Tell us what you think.
+                  </div>
+                  <div class="modal-body">
+                    <div class="input-group">
+                      <h4>Name</h4>
+
+                      <input type="text" class="form-control" placeholder="John Smith" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <h4>Email Address</h4>
+
+                      <input type="text" class="form-control" placeholder="jsmith@gmail.com" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <h4>Comments</h4>
+
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
     </div>
   </div>

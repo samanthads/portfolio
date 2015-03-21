@@ -17,6 +17,13 @@
 	text-align: center;
 }
 
+.work a:hover{
+	text-decoration: none;
+}
+
+.work a:active{
+	text-decoration: none;
+}
 
 h2{
 	text-align: center;
