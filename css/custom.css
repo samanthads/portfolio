@@ -33,3 +33,18 @@ h1{
 	text-align: center;
 }
 
+.input-group{
+	width:100%;
+}
+
+.modal-title{
+	text-align: center;
+}
+
+.contact{
+	text-align: center;
+}
+
+.navbar-btn{
+	margin: 0;
+}
