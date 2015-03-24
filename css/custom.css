@@ -13,6 +13,14 @@
 	}
 }
 
+@media (max-width: 768px) {
+    body{font-size: 20px;}
+}
+
+@media (max-width: 992px) {
+    body{font-size: 20px;}
+}
+
 .navi2{
 	text-align: center;
 }
