@@ -1,72 +1,131 @@
 /*.name{
 	float: right;
-}*/
+	}*/
 
-.spots{
-	padding-top: 72px;
-	text-align: center;
-}
+	body{
+		font-family: 'Bitter', serif;
+	}
 
-@media (max-width: 1200px){
 	.spots{
+		padding-top: 72px;
+		text-align: center;
+	}
+
+	@media (max-width: 1200px){
+		.spots{
+			padding-top: 0;
+		}
+	}
+
+	.spots1{
 		padding-top: 0;
 	}
+
+	.thumbnail{
+		border: 1px solid;
+		border-color: white;
+		color: black;
+	}
+
+	a.thumbnail:active, a.thumbnail:focus, a.thumbnail:hover {
+
+		color: black;
+		background-color: #99CCFF;
+		border: 1px solid;
+		border-color: #adadad;
+	}
+
+	.out{
+		padding: 20px;
+	}
+
+	.reachbtn{
+		margin: 20px;
+	}
+
+	a.out:active, a.out:focus, a.out:hover {
+
+		border-radius: 100%;
+		background-color: #99CCFF;
+	}
+
+	.navi2{
+		text-align: center;
+	}
+
+	.work a:hover{
+		text-decoration: none;
+		border: 1px solid;
+		border-color: #adadad;
+
+	}
+
+	.work a:active{
+		text-decoration: none;
+		border: 1px solid;
+		border-color: #adadad;
+		
+	}
+
+	.reach{
+		padding-top: 20px;
+	}
+
+	.img-circle{
+		border: 5px;
+		border-color: #99CCFF;
+	}
+
+
+	h2{
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+	}
+
+	h1{
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+	}
+
+	h3{
+		font-family: 'Dancing Script', cursive;
+	}
+
+
+	.name{
+		font-family: 'Dancing Script', cursive;
+	}
+
+	.btn{
+		font-family: 'Bitter', serif;
+	}
+
+	.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+  background-color: #99CCFF;
 }
 
-.thumbnail{
-	border: none;
-	color: black;
-}
+	.input-group{
+		width:100%;
+		text-align: left;
+	}
 
-a.thumbnail:active, a.thumbnail:focus, a.thumbnail:hover {
-  border: none;
-  color: white;
-  background-color: gray;
-}
+	.modal-title{
+		text-align: center;
+	}
 
-.navi2{
-	text-align: center;
-}
+	.contact{
+		text-align: center;
+		padding-bottom: 50px;
+	}
 
-.work a:hover{
-	text-decoration: none;
-}
+	.navbar-btn{
+		margin: 0;
+	}
 
-.work a:active{
-	text-decoration: none;
-}
+/*	.container{
+		padding-top: 5%;
+	}*/
 
-h2{
-	text-align: center;
-	/*font-family: 'Dancing Script', cursive;*/
-}
-
-h1{
-	text-align: center;
-	/*font-family: 'Dancing Script', cursive;*/
-}
-
-.input-group{
-	width:100%;
-	text-align: left;
-}
-
-.modal-title{
-	text-align: center;
-}
-
-.contact{
-	text-align: center;
-}
-
-.navbar-btn{
-	margin: 0;
-}
-
-.container{
-	padding-top: 5%;
-}
-
-.head{
-	padding-top: 0%;
-}
+	.head{
+		padding-top: 0%;
+	}
