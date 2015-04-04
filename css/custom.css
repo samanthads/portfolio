@@ -28,10 +28,12 @@
 		transition: none;
 	}
 
+
+
 	a.thumbnail:active, a.thumbnail:focus, a.thumbnail:hover {
-text-decoration: none;
+		text-decoration: none;
 		color: black;
-		background-color: #99CCFF;
+		background-color: rgba(153,204,255,.6);
 
 		border: 1px solid;
 		border-color: #adadad;
@@ -51,7 +53,7 @@ text-decoration: none;
 	a.out:active, a.out:focus, a.out:hover {
 
 		border-radius: 4px;
-		background-color: #99CCFF;
+		background-color: rgba(153,204,255,.65);
 
 	}
 
@@ -71,79 +73,83 @@ text-decoration: none;
 		border: 1px solid;
 		border-color: #adadad;
 		
-	}*/
+		}*/
 
-	.reach{
-		padding-top: 20px;
-	}
+		.reach{
+			padding-top: 20px;
+		}
 
-	.img-circle{
-		border: 5px;
-		border-color: #99CCFF;
-		padding:20px;
-	}
+		.img-circle{
+			border: 5px;
+			border-color: #99CCFF;
+			padding:20px;
+		}
 
-	a.img-circle:hover{
-		text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
-	}
+		a.img-circle:hover{
+			text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
+		}
 
-	h2{
-		text-align: center;
-		font-family: 'Dancing Script', cursive;
-		font-size: 40px;
-		text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
-	}
+		h2{
+			text-align: center;
+			font-family: 'Dancing Script', cursive;
+			font-size: 40px;
+			text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
+		}
 
-	h1{
-		text-align: center;
-		font-family: 'Dancing Script', cursive;
-		text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
-		font-size: 50px;
-	}
+		h1{
+			text-align: center;
+			font-family: 'Dancing Script', cursive;
+			text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
+			font-size: 50px;
+		}
 
-	h3{
-		font-size:25px;
-		font-family: 'Dancing Script', cursive;
-		
-	}
+		h3{
+			font-size:25px;
+			font-family: 'Dancing Script', cursive;
+
+		}
 
 
-	.name{
-		font-family: 'Dancing Script', cursive;
-	}
+		.name{
+			font-family: 'Dancing Script', cursive;
+		}
 
-	.btn{
-		font-family: 'Bitter', serif;
-		border-color: #99CCFF;
-		text-shadow: none;
-	}
+		.btn{
+			font-family: 'Bitter', serif;
+			border-color: #99CCFF;
+			text-shadow: none;
+		}
 
-	.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
-  background-color: #99CCFF;
-}
+		.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+			background-color: rgba(153,204,255,.65);
+		}
 
-	.input-group{
-		width:100%;
-		text-align: left;
-	}
+		.input-group{
+			width:100%;
+			text-align: left;
+		}
 
-	.modal-title{
-		text-align: center;
-	}
+		.modal-title{
+			text-align: center;
+		}
 
-	.contact{
-		text-align: center;
-		
-	}
+		.contact{
+			text-align: center;
 
-	.navbar-btn{
-		margin: 0;
+		}
+
+		.navbar-btn{
+			margin: 0;
+		}
+
+		.pic{
+		padding: 0px;
 	}
 
 /*	.container{
 		padding-top: 5%;
-	}*/
+		}*/
 
-	.head{
-		padding-top: 0%;
-	}
+		.head{
+			padding-top: 0%;
+		}
