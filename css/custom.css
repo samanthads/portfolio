@@ -29,11 +29,13 @@
 	}
 
 	a.thumbnail:active, a.thumbnail:focus, a.thumbnail:hover {
-
+text-decoration: none;
 		color: black;
 		background-color: #99CCFF;
+
 		border: 1px solid;
 		border-color: #adadad;
+		
 
 	}
 
@@ -48,15 +50,16 @@
 
 	a.out:active, a.out:focus, a.out:hover {
 
-		border-radius: 100%;
+		border-radius: 4px;
 		background-color: #99CCFF;
+
 	}
 
 	.navi2{
 		text-align: center;
 	}
 
-	.work a:hover{
+/*	.work a:hover{
 		text-decoration: none;
 		border: 1px solid;
 		border-color: #adadad;
@@ -64,11 +67,11 @@
 	}
 
 	.work a:active{
-		text-decoration: none;
+		
 		border: 1px solid;
 		border-color: #adadad;
 		
-	}
+	}*/
 
 	.reach{
 		padding-top: 20px;
@@ -77,27 +80,31 @@
 	.img-circle{
 		border: 5px;
 		border-color: #99CCFF;
+		padding:20px;
 	}
 
+	a.img-circle:hover{
+		text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
+	}
 
 	h2{
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
 		font-size: 40px;
-		text-shadow: 0 0 5px #99CCFF;
+		text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
 	}
 
 	h1{
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
-		text-shadow: 0 0 5px #99CCFF;
+		text-shadow: 0 0 5px #99CCFF, 0 0 10px #99CCFF;
 		font-size: 50px;
 	}
 
 	h3{
 		font-size:25px;
 		font-family: 'Dancing Script', cursive;
-		text-shadow: 0 0 5px #99CCFF;
+		
 	}
 
 
