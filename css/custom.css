@@ -23,8 +23,9 @@
 
 	.thumbnail{
 		border: 1px solid;
-		border-color: white;
+		border-color: #99CCFF;
 		color: black;
+		transition: none;
 	}
 
 	a.thumbnail:active, a.thumbnail:focus, a.thumbnail:hover {
@@ -33,6 +34,7 @@
 		background-color: #99CCFF;
 		border: 1px solid;
 		border-color: #adadad;
+
 	}
 
 	.out{
@@ -80,15 +82,21 @@
 	h2{
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
+		font-size: 40px;
+		text-shadow: 0 0 5px #99CCFF;
 	}
 
 	h1{
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
+		text-shadow: 0 0 5px #99CCFF;
+		font-size: 50px;
 	}
 
 	h3{
+		font-size:25px;
 		font-family: 'Dancing Script', cursive;
+		text-shadow: 0 0 5px #99CCFF;
 	}
 
 
@@ -98,6 +106,8 @@
 
 	.btn{
 		font-family: 'Bitter', serif;
+		border-color: #99CCFF;
+		text-shadow: none;
 	}
 
 	.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
@@ -115,7 +125,7 @@
 
 	.contact{
 		text-align: center;
-		padding-bottom: 50px;
+		
 	}
 
 	.navbar-btn{
