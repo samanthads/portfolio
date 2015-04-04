@@ -38,11 +38,12 @@
 	}
 
 	.out{
-		padding: 20px;
+		padding: 15px;
+		margin: 0;
 	}
 
 	.reachbtn{
-		margin: 20px;
+		margin: 15px;
 	}
 
 	a.out:active, a.out:focus, a.out:hover {
